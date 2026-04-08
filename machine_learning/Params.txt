@@ -1,0 +1,6 @@
+Number of Gaussians = 3
+threshold = 0.58
+learningRate(alpha) = 0.1
+Initial 
+Mean = 130
+weight = 1/3 
