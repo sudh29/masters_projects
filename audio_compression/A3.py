@@ -274,8 +274,9 @@ elif x == "4":
 else:
     print("Invalid option")
 
-path = "/home/sudhanshu/Downloads/4thSem/Multimedia/As3/" + file
-pathout = "/home/sudhanshu/Downloads/4thSem/Multimedia/As3/"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+path = os.path.join(script_dir, file)
+pathout = os.path.join(script_dir, "")
 
 file = wave.open(path)
 print("Channels:", file.getnchannels())

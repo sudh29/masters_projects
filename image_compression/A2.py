@@ -12,8 +12,9 @@ from datetime import timedelta
 # start timer to check time
 start_time = time.monotonic()
 
-path = "/home/sudhanshu/Downloads/4thSem/Multimedia/As2/1.bmp"
-pathout = "/home/sudhanshu/Downloads/4thSem/Multimedia/As2/"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+path = os.path.join(script_dir, "1.bmp")
+pathout = os.path.join(script_dir, "")
 
 ####################################################
 # LWZ encoder function
