@@ -1,0 +1,40 @@
+[project]
+name = "masters-projects"
+version = "0.1.0"
+description = "M.Tech Telecommunication Technology & Management Projects, IIT Delhi"
+readme = "README.md"
+requires-python = ">=3.11, <3.13"
+dependencies = [
+    "numpy>=1.26.0",
+    "scipy>=1.12.0",
+    "opencv-python>=4.9.0.80",
+    "pillow>=10.2.0",
+    "matplotlib>=3.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.3.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [
+    "audio_compression/A3.py",
+    "image_compression/A2.py",
+    "image_compression/dct.py",
+    "image_compression/Part1.py",
+    "image_compression/Part2.py",
+    "machine_learning/ML1.py",
+]
