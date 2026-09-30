@@ -20,11 +20,11 @@
 #include <BlynkSimpleEsp32.h>
 #include "esp_wpa2.h"
 
-#define EAP_IDENTITY "jtm192207"
-#define EAP_PASSWORD "jtm22072908"
+#define EAP_IDENTITY "YOUR_IITD_KERBEROS_ID"
+#define EAP_PASSWORD "YOUR_IITD_PASSWORD"
 
-const char* ssid = "IITD_WIFI";
-const char* auth = "2PjbSS5zvRf2Bpwu_ccVt9pbur4-DkFf"; // Blynk Auth Token
+const char* ssid = "YOUR_WIFI_SSID";
+const char* auth = "YOUR_BLYNK_AUTH_TOKEN"; // Blynk Auth Token
 
 const int relayPin = 2;
 float totalPower = 0;
