@@ -128,22 +128,7 @@ uv run python machine_learning/tracker_cli.py --input path/to/video.mp4 --params
 
 ---
 
-## 5. Modernization & Quality Roadmap
-
-The repository was systematically refactored from legacy student archives to production-grade engineering standards following the milestones documented in [`PLAN.md`](./PLAN.md):
-
-| Dimension | Baseline Score | Final Score | Transformation Highlights |
-|:---|:---:|:---:|:---|
-| **Structure & Hygiene** | 0.4 / 2.0 | **2.0 / 2.0** | Cleaned directory structures, resolved git conflicts, complete `.gitignore`. |
-| **Environment (`uv`)** | 0.2 / 1.5 | **1.5 / 1.5** | Root `pyproject.toml`, pinned dependencies, Python 3.12, lockfile. |
-| **Code Completeness** | 0.8 / 3.0 | **3.0 / 3.0** | Extracted missing source code from PDFs, removed hardcoded paths, modularized packages. |
-| **Testing & Verification** | 0.0 / 2.0 | **2.0 / 2.0** | 45 automated unit/integration tests (`pytest`) covering all algorithms. |
-| **Technical Documentation** | 0.4 / 1.5 | **1.5 / 1.5** | Comprehensive READMEs with formulas, schematics, and academic report cross-links. |
-| **Total Composite Score** | **1.8 / 10.0** | **10.0 / 10.0** | **Production-grade academic portfolio ready for presentation.** |
-
----
-
-## 6. Academic Integrity & References
+## 5. Academic Integrity & References
 
 All original laboratory reports, IEEE research papers, and circuit diagrams are preserved in their respective project directories:
 - **Networks:** [`socket_programming/Socket Programming.pdf`](./socket_programming/Socket%20Programming.pdf)
@@ -154,6 +139,6 @@ All original laboratory reports, IEEE research papers, and circuit diagrams are 
 
 ---
 
-## 7. License
+## 6. License
 
 This repository is licensed under the [GNU General Public License v3.0](./LICENSE).

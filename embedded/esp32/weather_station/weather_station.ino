@@ -25,14 +25,14 @@
 LiquidCrystal lcd(22, 23, 5, 18, 19, 21);
 
 // Institute WPA2 Enterprise Credentials (placeholders)
-#define EAP_IDENTITY "jtm192207"
-#define EAP_PASSWORD "jtm22072908"
+#define EAP_IDENTITY "YOUR_IITD_KERBEROS_ID"
+#define EAP_PASSWORD "YOUR_IITD_PASSWORD"
 
-const char* ssid = "IITD_WIFI";
-const char* weatherApiKey = "da76b2b69eb1d79fa2cd4d90"; // OpenWeatherMap API Key
+const char* ssid = "YOUR_WIFI_SSID";
+const char* weatherApiKey = "YOUR_OPENWEATHERMAP_API_KEY"; // OpenWeatherMap API Key
 
 // Telegram BOT Token
-#define BOT_TOKEN "1003941905:AAHSLltbvQjrSyjVqDTfAx8AY-Cc_q98sUs"
+#define BOT_TOKEN "YOUR_TELEGRAM_BOT_TOKEN"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
